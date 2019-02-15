@@ -31,7 +31,7 @@ body {
 
 .main-wrapper {
     border-color: #dddddd;
-    padding: 35px;
+    padding: 20px;
     border: solid;
     border-width: 1px;
     background: #ffffff;
@@ -40,9 +40,15 @@ body {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+.jumbotron {
+    margin-bottom: 0;
+    background: white;
+}
 #alexpic {
-    width: 25%;
-    height: 25%;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 15px;
 }
 img {
     width: 100%;
@@ -55,11 +61,10 @@ h2 {
     background: #63a8a4;
     color: white;
     text-align: center;
-    padding: 10px;
-    position: absolute;
-    width: 419px;
-    bottom: 0;
-    margin-bottom: 15px;
+    padding: 5px;
+    position: relative;
+    width: 100%;
+    bottom: 60px;
 }
 
 /* Footer */
@@ -73,8 +78,4 @@ h2 {
     background: #777777;
     color: lightgray;
     border-top: 20px solid #63a8a4;
-}
-.jumbotron {
-    margin-bottom: 0;
-    background: white;
 }
