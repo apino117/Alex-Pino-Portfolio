@@ -15,22 +15,22 @@ body {
 
 /* Nav Bar */
 
+#namebox {
+    margin-left: 360px;
+}
+#linkbox {
+    margin-left: 150px;
+}
 
 #nav-container {
     background: white;
     margin: 0;
     width: 100%;
-    padding: 10px;
+    padding: 0px;
 }
 @media (min-width: 992px) {
     .container {
     max-width: 100%;}
-}
-
-#nav-container {
-    background: white;
-    margin: auto;
-    padding: 10px;
 }
 
 .nav-content {
@@ -44,6 +44,7 @@ body {
     position: relative;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 24px;
+    margin-bottom: 0;
 }
 
 /* Main Stuff */
