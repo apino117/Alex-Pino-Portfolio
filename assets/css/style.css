@@ -42,7 +42,7 @@ body {
 
 /* Main Stuff */
 
-.main-wrapper {
+#main-content-container {
     border-color: #dddddd;
     padding: 20px;
     border: solid;
