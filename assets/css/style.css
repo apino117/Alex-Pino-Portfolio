@@ -15,13 +15,6 @@ body {
 
 /* Nav Bar */
 
-#namebox {
-    margin-left: 360px;
-}
-#linkbox {
-    margin-left: 150px;
-}
-
 #nav-container {
     background: white;
     margin: 0;
@@ -33,9 +26,9 @@ body {
     max-width: 100%;}
 }
 
-.nav-content {
+/* .nav-content {
     margin-left: 1100px;
-}
+} */
 #alexbrand {
     background: #63a8a4;
     color: white;
