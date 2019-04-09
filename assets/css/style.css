@@ -1,4 +1,4 @@
-/* ------ UNIVERSALS / FONTS ------- */
+/* ------ UNIVERSALS ------- */
 
 .clearfix::after {
     content: "";
@@ -16,6 +16,17 @@ img {
     height: 100%;
 }
 
+a {
+    color: #749abf;
+}
+
+ul {
+    /* text-align: initial; */
+    list-style-position: inside;
+}
+
+/* ----------- FONTS ------------ */
+
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -31,22 +42,14 @@ h1 {
 }
 
 h2 {
-    background: #868E47;
+    background: #D6B2B0;
+    ;
     color: white;
     text-align: center;
     padding: 5px;
     position: relative;
     width: 100%;
     bottom: 60px;
-}
-
-/* --------- NAV BAR -------- */
-
-#nav-container {
-    background-color: #cbd2dc;
-    margin: 0;
-    width: 100%;
-    padding: 0px;
 }
 
 /* -------- ALEX-SPECIFIC CONTENT ------- */
@@ -65,8 +68,10 @@ h2 {
     width: 200px;
     height: 200px;
     float: left;
-    margin-right: 15px;
-    border: solid 2px;
+    margin-right: 20px;
+    margin-top: 5px;
+    border: solid 3px;
+    border-radius: 25px;
 }
 
 /* ------- CONTAINERS ------- */
@@ -75,18 +80,29 @@ h2 {
     padding: 20px;
     border: solid;
     border-width: 3px;
+    border-radius: 20px;
     border-color: #9E7275;
     background: #ffffff;
-    /* width: 960px; */
     margin: auto;
     margin-top: 50px;
     margin-bottom: 100px;
+}
+
+#nav-container {
+    background-color: #cbd2dc;
+    margin: 0;
+    width: 100%;
+    padding: 0px;
 }
 
 /* -------- ROWS ---------- */
 
 .row {
     justify-content: center;
+}
+
+#resume-row {
+    margin-top: 25px;
 }
 
 /* -------- COLUMNS --------- */
@@ -101,6 +117,12 @@ h2 {
     text-align: center;
 }
 
+/* ----------- BUTTONS ----------- */
+
+.btn {
+    background-color: #CE8C98;
+}
+
 /* -------- FOOTER --------- */
 
 .page-footer {
@@ -111,6 +133,7 @@ h2 {
 #copyright-text {
     margin-top: 20px;
     color: #BBC6D1;
+    text-shadow: 2px 2px #78b5b1;
 }
 
 #audio-row {
@@ -119,7 +142,7 @@ h2 {
 
 /* Color pallete  */
 
-p {
+#ColorPallete {
     color: #F7E6E5;
     color: #D6B2B0;
     color: #9E7275;
