@@ -3,10 +3,17 @@
 
 <head>
     <title>The Most Alex of Pinos!</title>
+
+    <!-- CSS Reset -->
     <link rel="stylesheet" href="assets/css/reset.css">
+
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <!--Beginning of Content-->
@@ -36,9 +43,11 @@
     </nav>
 
     <!--Contact Section-->
-    <div class="container">
-        <div class="row">
-            <header class="main-wrapper">
+    <div class="container" id="main-content-container">
+
+        <!-- Form Component -->
+        <div class="row" id="contact-row">
+            <div class="col-12" id="contact-column">
                 <h1 id="contact-header">Contact</h1>
                 <hr>
                 <form>
@@ -57,7 +66,31 @@
                         <textarea class="form-control" id="Message" rows="3"></textarea>
                     </div>
                 </form>
-            </header>
+                <input class="btn btn-primary" type="submit" value="Submit">
+            </div>
+        </div>
+
+        <!-- Details component -->
+        <div class="row" id="details-row">
+            <div class="col-6" id="phone-column">
+                <h3>(571) 201-9297</h3>
+            </div>
+            <div class="col-6" id="email-column">
+                <h3>apino117@gmail.com</h3>
+            </div>
+        </div>
+        <div class="row" id="resume-row">
+            <div class="col-4" id="git-hub-column">
+                <h3><a href="https://github.com/apino117" target="_blank">GitHub</a></h3>
+            </div>
+            <div class="col-4" id="linkedIn-column">
+                <h3><a href="https://www.linkedin.com/in/alexander-pino-0595b317a/" target="_blank">LinkedIn</a></h3>
+            </div>
+            <div class="col-4" id="resume-column">
+                <h3><a href="https://drive.google.com/file/d/0B3uCorZJYp2URjJpc0JxWFJxRHhpRnIyU091R2pOTUpSaUhR/view?usp=sharing"
+                        target="_blank">Alex's
+                        Resume</a></h3>
+            </div>
         </div>
     </div>
 
@@ -77,6 +110,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <!-- JS -->
+    <script src="/assets/js/app.js"></script>
+
 </body>
 
 </html>
