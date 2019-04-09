@@ -7,7 +7,8 @@
 }
 
 body {
-    background-image: url("../images/wavecut_@2X.png");
+    background-image: linear-gradient(to top, #868e47, #749e6c, #6cab92, #78b5b1, #93bcc6, #a7c3d0, #bacad7, #cbd2dc, #d6dce4, #e2e5ec, #edeff5, #f8f9fd);
+    background-size: cover;
 }
 
 img {
@@ -26,11 +27,11 @@ h1, h2 {
 /* ------ HEADERS-------- */
 
 h1 {
-    color: #63a8a4
+    color: #868E47
 }
 
 h2 {
-    background: #63a8a4;
+    background: #868E47;
     color: white;
     text-align: center;
     padding: 5px;
@@ -42,7 +43,7 @@ h2 {
 /* --------- NAV BAR -------- */
 
 #nav-container {
-    background: white;
+    background-color: #cbd2dc;
     margin: 0;
     width: 100%;
     padding: 0px;
@@ -51,7 +52,7 @@ h2 {
 /* -------- ALEX-SPECIFIC CONTENT ------- */
 
 #alexbrand {
-    background: #63a8a4;
+    background: #868E47;
     color: white;
     text-align: center;
     padding: 10px;
@@ -93,12 +94,24 @@ h2 {
 /* -------- FOOTER --------- */
 
 .page-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    margin: 0;
-    left: 0;
-    background: #777777;
-    color: lightgray;
-    border-top: 20px solid #63a8a4;
+    color: #BBC6D1;
+    border-bottom: solid 20px #868e47;
+}
+
+/* Color pallete  */
+
+p {
+    color: #F7E6E5;
+    color: #D6B2B0;
+    color: #9E7275;
+    color: #CE8C98;
+    color: #B86472;
+    color: #868E47;
+    color: #647B24;
+    color: #576A29;
+    color: #44561A;
+    color: #7D827D;
+    color: #BBC6D1;
+    color: #E4E7F2;
+    color: #F8F9FD;
 }
