@@ -16,9 +16,13 @@ img {
     height: 100%;
 }
 
-a {
+.project-link {
     color: #749abf;
+    font-family: 'Fascinate Inline', cursive;
+    text-shadow: 2px 2px #224543;
 }
+
+
 
 ul {
     /* text-align: initial; */
@@ -31,18 +35,18 @@ ul {
     font-family: 'Raleway', sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Fascinate Inline', cursive;
 }
 
 /* ------ HEADERS-------- */
 
-h1 {
+h1, h3 {
     color: #868E47
 }
 
 h2 {
-    background: #D6B2B0;
+    background: #fad1cf;
     ;
     color: white;
     text-align: center;
