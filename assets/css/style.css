@@ -22,6 +22,16 @@ img {
     text-shadow: 2px 2px #224543;
 }
 
+.card {
+    border: 15px solid rgb(189, 208, 222);
+    border-radius: 1.25rem;
+}
+
+.card-body {
+    background: #fad1cf;
+    color: white;
+}
+
 
 
 ul {
@@ -47,7 +57,6 @@ h1, h3 {
 
 h2 {
     background: #fad1cf;
-    ;
     color: white;
     text-align: center;
     padding: 5px;
@@ -82,11 +91,11 @@ h2 {
 
 #main-content-container {
     padding: 20px;
-    border: solid;
+    /* border: solid;
     border-width: 3px;
     border-radius: 20px;
     border-color: #9E7275;
-    background: #ffffff7a;
+    background: #ffffff7a; */
     margin: auto;
     margin-top: 50px;
     margin-bottom: 100px;
