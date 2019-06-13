@@ -24,10 +24,6 @@ $("#find-philly-link").on("click", function() {
     $("#find-philly-modal").modal("show");
 });
 
-$("#human-link").on("click", function() {
-    $("#human-modal").modal("show");
-});
-
 $("#burger-link").on("click", function() {
     $("#burger-modal").modal("show");
 });
