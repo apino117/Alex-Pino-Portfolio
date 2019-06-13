@@ -12,7 +12,7 @@ $("#trivia-link").on("click", function() {
     $("#trivia-modal").modal("show");
 });
 
-$("#simpons-link").on("click", function() {
+$("#simpsons-link").on("click", function() {
     $("#simpsons-modal").modal("show");
 });
 
