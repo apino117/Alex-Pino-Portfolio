@@ -1,5 +1,5 @@
 // $("#user-input-modal").modal("show");
 
-$(".btn").on("click", function() {
-    alert("click");
+$(".project-link").on("click", function() {
+    $("#ex-dread-modal").modal("show");
 })

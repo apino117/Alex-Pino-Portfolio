@@ -33,8 +33,6 @@ img {
     color: white;
 }
 
-
-
 ul {
     /* text-align: initial; */
     list-style-position: inside;
@@ -135,6 +133,12 @@ h2 {
 
 #submit-btn {
     background-color: #CE8C98;
+}
+
+/* ----------- MODALS ----------- */
+
+.modal-footer {
+    justify-content: center;
 }
 
 /* -------- FOOTER --------- */
