@@ -31,3 +31,7 @@ $("#burger-link").on("click", function() {
 $("#gritt-o-link").on("click", function() {
     $("#gritt-o-modal").modal("show");
 });
+
+$("#piano-roll-link").on("click", function() {
+    $("#piano-roll-modal").modal("show");
+});
